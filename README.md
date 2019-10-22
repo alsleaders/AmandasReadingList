@@ -16,6 +16,7 @@ Other things I want to keep track of, but not sort by:
 - Whether I'd like to read it again
 - Whether I want to own a copy of it
 - Whom I've recommended it to
+- Did I abandon this book? Because of time? or content?
 
 # Defualt Template for SDG .NET Course
 
