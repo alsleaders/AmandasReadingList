@@ -28,8 +28,7 @@ namespace amandasreadinglist
       if (!optionsBuilder.IsConfigured)
       {
         var envConn = Environment.GetEnvironmentVariable("DATABASE_URL");
-#warning Be sure to update to your correct connection string to the point to the correct database
-        var conn = "server=localhost;database=SdgTemplate";
+        var conn = "server=localhost;database=AmandasReadingList;User Id=postgres;password=postgres";
         if (envConn != null)
         {
           conn = ConvertPostConnectionToConnectionString(envConn);
